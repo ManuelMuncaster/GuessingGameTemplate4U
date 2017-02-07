@@ -18,7 +18,6 @@ namespace GuessingGameTemplate4U
         //variable that can be used throughout the program 
         public static Random randNum = new Random();
         int rand = randNum.Next(1, 101);
-        int guessNumber = 0;
 
         public MainScreen()
         {
@@ -29,7 +28,7 @@ namespace GuessingGameTemplate4U
         {
             
             int guess = Convert.ToInt16(inputBox.Text);
-            guessNumber++;
+           Form1.guessNumber++;
                 
             //add guess to List of guesses on Form1
             Form1.userGuess.Add(guess);

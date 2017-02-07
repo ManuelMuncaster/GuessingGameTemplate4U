@@ -15,7 +15,8 @@ namespace GuessingGameTemplate4U
         public resultScreen()
         {
             InitializeComponent();
-
+            Convert.ToString = Form1.guessNumber;
+            guessLabel.Text = 
         }
     }
 }

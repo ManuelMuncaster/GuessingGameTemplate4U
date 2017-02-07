@@ -20,6 +20,7 @@ namespace GuessingGameTemplate4U
         //TODO create global list to store user guesses
 
         public static List<int> userGuess = new List<int>();
+     public static int guessNumber;
 
         public Form1()
         {
