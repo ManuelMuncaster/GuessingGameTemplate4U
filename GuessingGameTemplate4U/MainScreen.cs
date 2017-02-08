@@ -28,7 +28,7 @@ namespace GuessingGameTemplate4U
         {
             
             int guess = Convert.ToInt16(inputBox.Text);
-           Form1.guessNumber++;
+            Form1.guessNumber++;
                 
             //add guess to List of guesses on Form1
             Form1.userGuess.Add(guess);
